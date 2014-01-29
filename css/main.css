@@ -1,0 +1,90 @@
+
+
+/* .social
+==========================================================*/
+.social {
+	list-style: none;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 392px;
+}
+	.social li {
+		float: left;
+		text-align: center;
+		width: 136px;
+	}
+
+/* .widget
+==========================================================*/
+.widget {
+	color: #fff;
+	display: block;
+	font: 13px/32px Helvetica, Arial, sans-serif;
+	letter-spacing: -0.5px;
+	text-align: center;
+	text-decoration: none;
+	width: 136px;
+
+	-moz-box-shadow: 0px 1px 2px #666;
+	-webkit-box-shadow: 0px 1px 2px #666;
+	box-shadow: 0px 1px 2px #666;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+	.widget > span {
+		background-repeat: repeat-x;
+		float: left;
+	}
+
+	.widget .icon {
+		background-position: 0 0;
+		text-indent: -9999px;
+		width: 34px;
+
+		-webkit-border-top-left-radius: 6px;
+		-webkit-border-bottom-left-radius: 6px;
+		-moz-border-radius-topleft: 6px;
+		-moz-border-radius-bottomleft: 6px;
+		border-top-left-radius: 6px;
+		border-bottom-left-radius: 6px;
+	}
+		.widget:hover .icon { background-position: -82px 0; }
+
+	.widget .counter {
+		background-position: 0 -32px;
+		line-height: 32px;
+		padding: 0 7px;
+		width: 40px;
+	}
+		.widget:hover .counter { background-position: -82px -32px; }
+
+	.widget .action {
+		background-position: -34px 0;
+		text-shadow: 0px 0px 5px #fff;
+		width: 48px;
+
+		-webkit-border-top-right-radius: 6px;
+		-webkit-border-bottom-right-radius: 6px;
+		-moz-border-radius-topright: 6px;
+		-moz-border-radius-bottomright: 6px;
+		border-top-right-radius: 6px;
+		border-bottom-right-radius: 6px;
+	}
+
+	.widget .counter,
+	.widget .action { line-height: 32px; }
+
+	.widget,
+	.widget > span { height: 32px; }
+
+	/* .twitter
+	==========================================================*/
+	.twitter {}
+		.twitter > span { background-image: url("../images/twitter.png"); }
+
+	/* .facebook
+	==========================================================*/
+	.facebook {}
+		.facebook > span { background-image: url("../images/facebook.png"); }

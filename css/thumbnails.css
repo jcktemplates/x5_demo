@@ -1,0 +1,13 @@
+
+/* Thumbnails page */
+div.imCellSPage { display: block; position: relative; overflow: hidden; width: 798px; min-height: 402px; border-top: 3px solid transparent; border-bottom: 3px solid transparent; border-left: 3px solid transparent; border-right: 3px solid transparent;}
+div.imCellStyleSPage { position: relative; width: 792px; min-height: 396px; padding: 3px 3px 3px 3px; text-align: center; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; z-index: 2;}
+#imCellStyleGraphics_1 { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: transparent;}
+div.imSPageContainer { width: 792px; height: 396px; overflow: hidden; position: relative; margin: 0px; text-align: left; }
+div.imSPageContainer .imRunner img { float: left; margin: 1px; } /*  width: 196px; height: 196px; */
+div.imSPageContainer .imSControls { position: absolute; bottom: 0px; right: 0px; padding: 3px; background-color: white; font-size: 25px; font-family: "Trebuchet MS"; font-weight: bold; text-align: center; }
+div.imSPageContainer .imSControls .imPNext { float: left; margin-right: 5px; cursor: pointer; }
+div.imSPageContainer .imSControls .imPPrev { float: left; margin-right: 30px; margin-left: 5px; cursor: pointer; }
+div.imSPageContainer .imRunner .imSPage { float: left;	width: 792px; height: 792px; } 
+div.imSPageContainer .imRunner{ position: absolute; left: 0px; }
+div.imSPageContainer a:link, div.imSPageContainer a:hover, div.imSPageContainer a:visited, div.imSPageContainer a:active { border: none; background-color: transparent; text-decoration: none; }

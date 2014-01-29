@@ -1,0 +1,43 @@
+/**
+  * overwrite.css
+  *
+  * Overwrite/default rules in cases where CSS for specific ID's don't reply
+  *
+  */
+
+div[id^='imTextObject_'] {
+	font-size: 13px; /* Default override rule - otherwise the X5 reset rule will make it 1pt */
+    line-height: normal !important;
+}
+
+div[id^='imTextObject_'] blockquote {
+	margin-left: 40px;
+}
+
+div[id^='imTextObject_'] ol {
+	list-style-type: decimal;
+}
+
+div[id^='imTextObject_'] ul { 
+    list-style: disc; 
+    margin: 0px; 
+    padding: 0px;
+}
+div[id^='imTextObject_'] ul li {
+    margin: 0px 0px 0px 15px; 
+    padding: 0px;
+}
+
+div[id^="imTextObject"] p {
+	font-size: 9.8pt;
+	display: block;
+    line-height: normal;
+}
+
+.redactor_box {
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}

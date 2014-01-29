@@ -1,0 +1,350 @@
+/*
+ * Tree structure for files overview.
+ */
+ul.tree, ul.tree ul {
+	list-style-type: none;
+	background: url('../img/menu/vline.png') repeat-y;
+	margin: 0;
+	padding: 0;
+}
+
+ul.tree ul {
+	margin-left: 10px;
+}
+
+ul.tree li {
+	margin: 0;
+	padding: 0 12px;
+	line-height: 20px;
+	background: url('../img/menu/node.png') no-repeat;
+	color: #369;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+ul.tree li.last {
+	background: #fff url('../img/menu/lastnode.png') no-repeat;
+}
+  
+/*
+ * CMS-Editor Widget
+ */
+div.widget-container {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+
+	height: 500px;
+	width: 93px;
+	z-index: 2000000000;
+}
+
+div.normal > div.widget-top, div.normal > div.widget-gradient, div.normal > div.widget-bottom {
+	width: 93px;
+}
+
+div.normal > div.widget-top {
+	background: url('../img/menu/menuVerticalNormalTop.png') no-repeat;
+	height: 14px;
+}
+
+div.normal > div.widget-gradient {
+	background: url('../img/menu/menuVerticalNormalGradient.png') repeat-y;
+	height: 640px !important;
+}
+
+div.widget-gradient > span.widget-icon > img {
+	width: 32px;
+	height: 32px;
+}
+
+div.normal > div.widget-bottom {
+	background: url('../img/menu/menuVerticalNormalBottom.png') no-repeat;
+	height: 20px;
+}
+
+div.normal > img.widget-logo {
+	margin: 0 0 0 6px;
+}
+
+div.normal > div.widget-close {
+	position: absolute;
+	background: url('../img/menu/iconVerticalArrowNormalCollapse.png') no-repeat;
+	width: 54px;
+	height: 69px;
+	border: 0;
+	z-index: 0;
+	cursor: pointer;
+}
+
+
+div.small > div.widget-top, div.small > div.widget-gradient, div.small > div.widget-bottom {
+	width: 70px;
+}
+
+div.small > div.widget-top {
+	background: url('../img/menu/menuVerticalSmallTop.png') no-repeat;
+	height: 14px;
+}
+
+div.small > div.widget-gradient {
+	background: url('../img/menu/menuVerticalSmallGradient.png') repeat-y;
+	height: 550px;
+}
+
+div.small > div.widget-bottom {
+	background: url('../img/menu/menuVerticalSmallBottom.png') no-repeat;
+	height: 20px;
+}
+
+div.small > img.widget-logo {
+	margin: 0 0 0 6px;
+}
+
+div.small > div.widget-close {
+	position: absolute;
+	background: url('../img/menu/iconVerticalArrowSmallCollapse.png') no-repeat;
+	width: 34px;
+	height: 43px;
+	border: 0;
+	z-index: 0;
+	cursor: pointer;
+}
+
+div.widget-options-container h5 {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;	
+	margin-bottom: 10px;
+	color: #000000;
+    width: 100%;
+    float: left;
+}
+
+
+/*
+ * Icons 
+ */
+span.menu-icon-container {
+	background-image: url('../img/menu/menuIconContainer.png');
+	background-repeat: no-repeat;
+	
+	width: 32px;
+	height: 32px;
+	padding: 2px 2px 2px 0;
+
+	position: absolute;
+	top: 8px;
+
+	cursor: pointer;
+}
+
+span.widget-icon {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 34px;
+	padding: 13px 0;
+	cursor: pointer;
+	display: block;
+	margin-top: 10px;
+}
+
+span.widget-selected {
+	background: url('../img/menu/button-selected.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+
+span.widget-icon > img {
+	width: 32px;
+	display: block;
+	margin: 0 auto;
+}
+
+div.small > span.widget-icon {
+	margin: 10px 0 0 0;
+	width: 60px;
+}
+
+div.widget-options {
+	background: url('../img/menu/optionsPanel.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 190px;
+    height: auto;
+	position: absolute;
+	top: 180px;
+	left: 85px;
+	display: none;
+	padding: 15px 5px 15px 10px;
+}
+
+div.widget-options.advanced-settings {
+    height: auto;
+}
+
+div.widget-options-container {
+    background-color: white;
+    width: 170px;
+    float: left;
+    padding: 5px;
+    margin-bottom: 3px;
+    font-family: Arial;
+    font-size: 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+div.widget-options-container > div {
+	width: 53px;
+	height: 30px;
+	margin: 5px 0 0 0;
+	float: left;
+}
+
+div.widget-options-container > div.middle {	
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div.widget-options-container > div > a {
+	float: left;
+	cursor: pointer;
+}
+
+
+
+img[id^="imObjectImage_"], div[id^="imTextObject_"] {
+	padding: 1px;
+}
+
+div.hover-border {
+	overflow: hidden;
+	position: absolute;
+	display: none;
+}
+
+div.hover-border.top, div.hover-border.bottom {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAYAAAD0In+KAAAAEElEQVR42mNgmPL/PwMQAAAPCgKTszxDjgAAAABJRU5ErkJggg==") -0px -0px repeat-x;
+}
+
+div.hover-border.right, div.hover-border.left {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEElEQVR42mNgmPL/PwMIAAARnQKTr5cf/gAAAABJRU5ErkJggg==") -0px -0px repeat-y;
+}
+
+div.grid-border {
+	overflow: hidden;
+	position: absolute;
+	display: none;
+}
+
+div.grid-border.top, div.grid-border.bottom {
+	height: 3px;
+	background-color: #ce5a5a;
+}
+
+div.grid-border.right, div.grid-border.left {
+	width: 3px;
+	background-color: #ce5a5a;
+}
+
+div.film-strip > ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.film-strip > ul > li {
+	float: left;
+	list-style-type: none;
+	position: relative;
+}
+
+div.film-strip > ul > li > div.delete {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	
+	padding: 5px;
+	background-color: #0094ff;
+	color: white !important;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+
+	cursor: pointer;
+}
+
+
+ul.WOWSlider-strip, ul.thumbnail-strip {
+	padding: 0;
+	margin: 0;
+}
+
+ul.WOWSlider-strip > li, ul.thumbnail-strip > li {
+	float: left;
+	list-style-type: none;
+	width: 200px;
+}
+
+ul.WOWSlider-strip > li > img, ul.thumbnail-strip > li > img {
+	width: 200px;
+}
+
+ul.WOWSlider-strip > li > input, ul.thumbnail-strip > li > input {
+	width: 200px;
+	display: block;
+}
+
+
+/* Thumbnails page */
+div.imCellSPage { display: block; position: relative; overflow: hidden; width: 798px; min-height: 402px; border-top: 3px solid transparent; border-bottom: 3px solid transparent; border-left: 3px solid transparent; border-right: 3px solid transparent;}
+div.imCellStyleSPage { position: relative; width: 792px; min-height: 396px; padding: 3px 3px 3px 3px; text-align: center; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; z-index: 2;}
+div.imSPageContainer { width: 792px; height: 396px; overflow: hidden; position: relative; margin: 0px; text-align: left; }
+div.imSPageContainer .imRunner img { float: left; margin: 1px; } /*  width: 196px; height: 196px; */
+div.imSPageContainer .imSControls { position: absolute; bottom: 0px; right: 0px; padding: 3px; background-color: white; font-size: 25px; font-family: "Trebuchet MS"; font-weight: bold; text-align: center; }
+div.imSPageContainer .imSControls .imPNext { float: left; margin-right: 5px; cursor: pointer; }
+div.imSPageContainer .imSControls .imPPrev { float: left; margin-right: 30px; margin-left: 5px; cursor: pointer; }
+div.imSPageContainer .imRunner .imSPage { float: left;	width: 792px; height: 792px; } 
+div.imSPageContainer .imRunner{ position: absolute; left: 0px; }
+div.imSPageContainer a:link, div.imSPageContainer a:hover, div.imSPageContainer a:visited, div.imSPageContainer a:active { border: none; background-color: transparent; text-decoration: none; }
+
+/* Back to top */
+#backtotop {
+	position: fixed;
+	right:40px;
+	bottom:15px;
+	display:none;/*hid the button first*/
+}
+#backtotop a {
+	text-decoration:none;
+	border:0 none;
+	display:block;
+	width:31px;
+	height:80px;
+}
+#backtotop a:hover {
+	opacity:.8; /*mouse over fade effect*/
+}
+
+/*
+div.ws_bulframe {
+    display: none !important;
+    opacity: 0 !important;
+}
+*/
+
+
+.no-selection {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+div.redactor_box > h2 {
+	border: 1px solid #ddd;
+}

@@ -1,0 +1,24 @@
+<gallery width="954" height="377">
+  <video>
+    <integrate>WebSiteX5</integrate>
+    <cpindex>6143179</cpindex>
+  </video>
+  <options>
+    <autoplay>true</autoplay>
+    <tposition>none</tposition>
+    <music />
+    <buttons>false</buttons>
+    <random>false</random>
+    <background>transparent</background>
+  </options>
+  <slides>
+    <slide url="gallery/slider-1.jpg" type="image" page="0" effect="fade" autoplay="5000">
+    </slide>
+    <slide url="gallery/slider-2.jpg" type="image" page="0" effect="fade" autoplay="5000">
+    </slide>
+    <slide url="gallery/slider-3.jpg" type="image" page="0" effect="random" autoplay="5000">
+    </slide>
+    <slide url="gallery/slider-4.jpg" type="image" page="0" effect="fade" autoplay="5000">
+    </slide>
+  </slides>
+</gallery>

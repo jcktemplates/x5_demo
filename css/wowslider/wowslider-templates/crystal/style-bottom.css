@@ -1,0 +1,11 @@
+/* bottom center */
+div.wowslider-container_crystal  .ws_bullets {
+	position:absolute;
+	left:50%;
+}
+div.wowslider-container_crystal  .ws_bullets div{
+	left:-50%;
+}
+div.wowslider-container_crystal .ws_bullets .ws_bulframe {
+	bottom: 20px;
+}

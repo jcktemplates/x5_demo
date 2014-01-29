@@ -1,0 +1,11 @@
+.imHidden {display: none;}
+.imBgStretcher {display: none;}
+#imHeader {display: none;}
+#imHeaderBg {display : none;}
+#imMnMn {display: none;}
+#imPgMn {display: none;}
+#imFooPad {display: none;}
+#imBtMn {display: none;}
+#imFooter {display : none;}
+#imFooterBg {display: none;}
+#imContent { height: auto !important; }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+		<loc>http://jckcreations.com/demo/index.html</loc>
+		<lastmod>2013-09-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+		<video:video>
+			<video:content_loc>http://www.youtube.com/watch?v=QN3ygQAC0SQ</video:content_loc>
+			<video:thumbnail_loc>http://jckcreations.com/demo/images/tube-foto.png</video:thumbnail_loc>
+			<video:title><![CDATA[Lika Tube]]></video:title>
+			<video:description><![CDATA[Lorem IpSum Dolor]]></video:description>
+			<video:publication_date>2012-01-30T23:00:00+00:00</video:publication_date>
+			<video:family_friendly>yes</video:family_friendly>
+		</video:video>
+	</url>
+	<url>
+		<loc>http://jckcreations.com/demo/services.html</loc>
+		<lastmod>2013-09-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://jckcreations.com/demo/portfolio.html</loc>
+		<lastmod>2013-09-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://jckcreations.com/demo/contact.html</loc>
+		<lastmod>2013-09-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://jckcreations.com/demo/imsitemap.html</loc>
+		<lastmod>2013-09-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://jckcreations.com/demo/about.html</loc>
+		<lastmod>2013-09-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+</urlset>
